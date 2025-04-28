@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cnnClassifier
+Version: 0.0.0
+Summary: A small python package for CNN app
+Home-page: https://github.com/Monish-Nallagondalla/CNN_Classifier.git
+Author: Monish-Nallagondalla
+Author-email: nsmonish@gmail.com
+Project-URL: Bug Tracker, https://github.com/Monish-Nallagondalla/CNN_Classifier/issues
+License-File: LICENSE
+
+# CNN_Classifier
