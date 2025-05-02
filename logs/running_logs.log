@@ -6,3 +6,44 @@
 [2025-05-02 23:56:04,368:INFO:5(module)s:yaml file: params.yaml loaded successfully]
 [2025-05-02 23:56:45,109:INFO:5(module)s:yaml file: config\config.yaml loaded successfully]
 [2025-05-02 23:56:45,112:INFO:5(module)s:yaml file: params.yaml loaded successfully]
+[2025-05-02 23:58:04,723:INFO:5(module)s:yaml file: config\config.yaml loaded successfully]
+[2025-05-02 23:58:04,725:INFO:5(module)s:yaml file: params.yaml loaded successfully]
+[2025-05-02 23:58:10,869:INFO:5(module)s:yaml file: config\config.yaml loaded successfully]
+[2025-05-02 23:58:10,871:INFO:5(module)s:yaml file: params.yaml loaded successfully]
+[2025-05-03 00:00:06,728:INFO:5(module)s:yaml file: config\config.yaml loaded successfully]
+[2025-05-03 00:00:06,730:INFO:5(module)s:yaml file: params.yaml loaded successfully]
+[2025-05-03 00:00:56,027:INFO:5(module)s:yaml file: config\config.yaml loaded successfully]
+[2025-05-03 00:00:56,038:INFO:5(module)s:yaml file: params.yaml loaded successfully]
+[2025-05-03 00:00:56,040:INFO:5(module)s:created directory at: artifacts]
+[2025-05-03 00:00:56,042:INFO:5(module)s:created directory at: artifacts/data_ingestion]
+[2025-05-03 00:02:41,333:INFO:5(module)s:yaml file: config\config.yaml loaded successfully]
+[2025-05-03 00:02:41,336:INFO:5(module)s:yaml file: params.yaml loaded successfully]
+[2025-05-03 00:02:41,338:INFO:5(module)s:created directory at: artifacts]
+[2025-05-03 00:02:41,340:INFO:5(module)s:created directory at: artifacts/data_ingestion]
+[2025-05-03 00:02:43,567:INFO:5(module)s:artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: C374:092A:131CEC:2B4F16:68150FCA
+Accept-Ranges: bytes
+Date: Fri, 02 May 2025 18:32:43 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4747-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1746210762.464558,VS0,VE1092
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: eca38de1bc79563968077b993a94e273e6407242
+Expires: Fri, 02 May 2025 18:37:43 GMT
+Source-Age: 1
+
+]
