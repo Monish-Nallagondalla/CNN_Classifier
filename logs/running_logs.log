@@ -47,3 +47,59 @@ Expires: Fri, 02 May 2025 18:37:43 GMT
 Source-Age: 1
 
 ]
+[2025-05-04 21:15:09,787:INFO:5(module)s:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-05-04 21:15:09,788:ERROR:5(module)s:'DataIngestionTrainingPipeline' object has no attribute 'main']
+Traceback (most recent call last):
+  File "C:\Users\MONISH\OneDrive\Documents\Data_science 2024\CNN_classifier\CNN_Classifier\main.py", line 8, in <module>
+    obj.main()
+    ^^^^^^^^
+AttributeError: 'DataIngestionTrainingPipeline' object has no attribute 'main'
+[2025-05-04 21:15:39,701:INFO:5(module)s:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-05-04 21:15:39,702:ERROR:5(module)s:'DataIngestionTrainingPipeline' object has no attribute 'main']
+Traceback (most recent call last):
+  File "C:\Users\MONISH\OneDrive\Documents\Data_science 2024\CNN_classifier\CNN_Classifier\main.py", line 8, in <module>
+    obj.main()
+    ^^^^^^^^
+AttributeError: 'DataIngestionTrainingPipeline' object has no attribute 'main'
+[2025-05-04 21:41:47,069:INFO:5(module)s:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-05-04 21:41:47,070:ERROR:5(module)s:'DataIngestionTrainingPipeline' object has no attribute 'main']
+Traceback (most recent call last):
+  File "C:\Users\MONISH\OneDrive\Documents\Data_science 2024\CNN_classifier\CNN_Classifier\main.py", line 8, in <module>
+    obj.main()
+    ^^^^^^^^
+AttributeError: 'DataIngestionTrainingPipeline' object has no attribute 'main'
+[2025-05-04 21:45:00,567:INFO:5(module)s:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-05-04 21:45:00,579:INFO:5(module)s:yaml file: config\config.yaml loaded successfully]
+[2025-05-04 21:45:00,591:INFO:5(module)s:yaml file: params.yaml loaded successfully]
+[2025-05-04 21:45:00,592:INFO:5(module)s:created directory at: artifacts]
+[2025-05-04 21:45:00,593:INFO:5(module)s:created directory at: artifacts/data_ingestion]
+[2025-05-04 21:45:02,694:INFO:5(module)s:artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F606:08E7:F3191:2FDB4B:68179282
+Accept-Ranges: bytes
+Date: Sun, 04 May 2025 16:15:02 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4733-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1746375301.231853,VS0,VE905
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: f498847570d42fc34d09c358c731b37fb0a9b647
+Expires: Sun, 04 May 2025 16:20:02 GMT
+Source-Age: 1
+
+]
+[2025-05-04 21:45:03,173:INFO:5(module)s:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
