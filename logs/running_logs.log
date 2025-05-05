@@ -249,3 +249,100 @@ x==========x]
 [2025-05-05 23:52:43,943:INFO:5(module)s:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
 [2025-05-05 23:52:43,943:INFO:5(module)s:created directory at: artifacts\training]
 [2025-05-05 23:52:44,287:WARNING:5(module)s:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-06 00:18:38,535:INFO:5(module)s:yaml file: config\config.yaml loaded successfully]
+[2025-05-06 00:18:38,535:INFO:5(module)s:yaml file: params.yaml loaded successfully]
+[2025-05-06 00:18:38,535:INFO:5(module)s:created directory at: artifacts]
+[2025-05-06 00:18:38,535:INFO:5(module)s:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2025-05-06 00:18:38,535:INFO:5(module)s:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2025-05-06 00:18:38,535:INFO:5(module)s:created directory at: artifacts\training]
+[2025-05-06 00:26:46,191:INFO:5(module)s:yaml file: config\config.yaml loaded successfully]
+[2025-05-06 00:26:46,196:INFO:5(module)s:yaml file: params.yaml loaded successfully]
+[2025-05-06 00:26:46,198:INFO:5(module)s:created directory at: artifacts]
+[2025-05-06 00:26:46,199:INFO:5(module)s:created directory at: artifacts/prepare_base_model]
+[2025-05-06 00:27:04,193:INFO:5(module)s:yaml file: config\config.yaml loaded successfully]
+[2025-05-06 00:27:04,195:INFO:5(module)s:yaml file: params.yaml loaded successfully]
+[2025-05-06 00:27:04,197:INFO:5(module)s:created directory at: artifacts]
+[2025-05-06 00:27:04,198:INFO:5(module)s:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2025-05-06 00:27:04,198:INFO:5(module)s:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2025-05-06 00:27:04,198:INFO:5(module)s:created directory at: artifacts\training]
+[2025-05-06 01:28:58,996:INFO:5(module)s:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-05-06 01:28:58,999:INFO:5(module)s:yaml file: config\config.yaml loaded successfully]
+[2025-05-06 01:28:59,002:INFO:5(module)s:yaml file: params.yaml loaded successfully]
+[2025-05-06 01:28:59,003:INFO:5(module)s:created directory at: artifacts]
+[2025-05-06 01:28:59,004:INFO:5(module)s:created directory at: artifacts/data_ingestion]
+[2025-05-06 01:28:59,005:INFO:5(module)s:File already exists of size: ~ 11345 KB]
+[2025-05-06 01:28:59,480:INFO:5(module)s:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-05-06 01:28:59,481:INFO:5(module)s:*******************]
+[2025-05-06 01:28:59,481:INFO:5(module)s:>>>>>> stage Prepare base model started <<<<<<]
+[2025-05-06 01:28:59,484:INFO:5(module)s:yaml file: config\config.yaml loaded successfully]
+[2025-05-06 01:28:59,485:INFO:5(module)s:yaml file: params.yaml loaded successfully]
+[2025-05-06 01:28:59,486:INFO:5(module)s:created directory at: artifacts]
+[2025-05-06 01:28:59,489:INFO:5(module)s:created directory at: artifacts/prepare_base_model]
+[2025-05-06 01:29:00,765:INFO:5(module)s:>>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-05-06 01:29:00,765:INFO:5(module)s:*******************]
+[2025-05-06 01:29:00,765:INFO:5(module)s:>>>>>> stage Training started <<<<<<]
+[2025-05-06 01:29:00,768:INFO:5(module)s:yaml file: config\config.yaml loaded successfully]
+[2025-05-06 01:29:00,769:INFO:5(module)s:yaml file: params.yaml loaded successfully]
+[2025-05-06 01:29:00,769:INFO:5(module)s:created directory at: artifacts]
+[2025-05-06 01:29:00,774:INFO:5(module)s:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2025-05-06 01:29:00,775:INFO:5(module)s:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2025-05-06 01:29:00,776:INFO:5(module)s:created directory at: artifacts\training]
+[2025-05-06 01:29:56,125:INFO:5(module)s:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-05-06 01:29:56,128:INFO:5(module)s:yaml file: config\config.yaml loaded successfully]
+[2025-05-06 01:29:56,129:INFO:5(module)s:yaml file: params.yaml loaded successfully]
+[2025-05-06 01:29:56,130:INFO:5(module)s:created directory at: artifacts]
+[2025-05-06 01:29:56,131:INFO:5(module)s:created directory at: artifacts/data_ingestion]
+[2025-05-06 01:29:58,510:INFO:5(module)s:artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 1580:0942:139476:2F5C02:681918BD
+Accept-Ranges: bytes
+Date: Mon, 05 May 2025 19:59:58 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10236-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1746475198.586349,VS0,VE920
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 2416e6c75102cdd3134a5a98b5c11c4a037f7808
+Expires: Mon, 05 May 2025 20:04:58 GMT
+Source-Age: 1
+
+]
+[2025-05-06 01:29:58,886:INFO:5(module)s:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-05-06 01:29:58,886:INFO:5(module)s:*******************]
+[2025-05-06 01:29:58,886:INFO:5(module)s:>>>>>> stage Prepare base model started <<<<<<]
+[2025-05-06 01:29:58,888:INFO:5(module)s:yaml file: config\config.yaml loaded successfully]
+[2025-05-06 01:29:58,890:INFO:5(module)s:yaml file: params.yaml loaded successfully]
+[2025-05-06 01:29:58,890:INFO:5(module)s:created directory at: artifacts]
+[2025-05-06 01:29:58,891:INFO:5(module)s:created directory at: artifacts/prepare_base_model]
+[2025-05-06 01:29:59,761:INFO:5(module)s:>>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-05-06 01:29:59,762:INFO:5(module)s:*******************]
+[2025-05-06 01:29:59,762:INFO:5(module)s:>>>>>> stage Training started <<<<<<]
+[2025-05-06 01:29:59,764:INFO:5(module)s:yaml file: config\config.yaml loaded successfully]
+[2025-05-06 01:29:59,766:INFO:5(module)s:yaml file: params.yaml loaded successfully]
+[2025-05-06 01:29:59,766:INFO:5(module)s:created directory at: artifacts]
+[2025-05-06 01:29:59,768:INFO:5(module)s:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2025-05-06 01:29:59,769:INFO:5(module)s:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2025-05-06 01:29:59,770:INFO:5(module)s:created directory at: artifacts\training]
+[2025-05-06 01:32:18,986:INFO:5(module)s:>>>>>> stage Training completed <<<<<<
+
+x==========x]
