@@ -75,3 +75,9 @@ def save_json(path:Path,data:dict):
         json.dump(data,f,indent=4)
     logger.info(f'json file saved at:{path}')
 
+def decodeImage(imgstring,fileName):
+    imgdata = base64.b64decode(imgstring)
+    with open(fileName,'wb') as f:
+        f.write(imgdata)
+        f.close()
+

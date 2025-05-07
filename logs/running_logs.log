@@ -513,3 +513,154 @@ x==========x]
 [2025-05-06 15:34:17,421:INFO:5(module)s:>>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2025-05-07 02:14:20,808:INFO:5(module)s:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.1.7:80]
+[2025-05-07 02:14:20,809:INFO:5(module)s:[33mPress CTRL+C to quit[0m]
+[2025-05-07 02:14:28,209:INFO:5(module)s:127.0.0.1 - - [07/May/2025 02:14:28] "GET / HTTP/1.1" 200 -]
+[2025-05-07 02:14:58,932:ERROR:5(module)s:Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\MONISH\anaconda3\envs\myenv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MONISH\anaconda3\envs\myenv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MONISH\anaconda3\envs\myenv\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MONISH\anaconda3\envs\myenv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MONISH\anaconda3\envs\myenv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MONISH\anaconda3\envs\myenv\Lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MONISH\OneDrive\Documents\Data_science 2024\CNN_classifier\CNN_Classifier\app.py", line 40, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\monish\onedrive\documents\data_science 2024\cnn_classifier\cnn_classifier\src\cnnClassifier\pipeline\predict.py", line 15, in predict
+    test_image = image.load_image(imagename,target_size = (224,224))
+                 ^^^^^^^^^^^^^^^^
+AttributeError: module 'keras._tf_keras.keras.preprocessing.image' has no attribute 'load_image'. Did you mean: 'load_img'?
+[2025-05-07 02:14:58,939:INFO:5(module)s:127.0.0.1 - - [07/May/2025 02:14:58] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2025-05-07 02:15:52,263:INFO:5(module)s:127.0.0.1 - - [07/May/2025 02:15:52] "GET / HTTP/1.1" 200 -]
+[2025-05-07 02:15:54,630:ERROR:5(module)s:Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\MONISH\anaconda3\envs\myenv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MONISH\anaconda3\envs\myenv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MONISH\anaconda3\envs\myenv\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MONISH\anaconda3\envs\myenv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MONISH\anaconda3\envs\myenv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MONISH\anaconda3\envs\myenv\Lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MONISH\OneDrive\Documents\Data_science 2024\CNN_classifier\CNN_Classifier\app.py", line 40, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\monish\onedrive\documents\data_science 2024\cnn_classifier\cnn_classifier\src\cnnClassifier\pipeline\predict.py", line 15, in predict
+    test_image = image.load_image(imagename,target_size = (224,224))
+                 ^^^^^^^^^^^^^^^^
+AttributeError: module 'keras._tf_keras.keras.preprocessing.image' has no attribute 'load_image'. Did you mean: 'load_img'?
+[2025-05-07 02:15:54,634:INFO:5(module)s:127.0.0.1 - - [07/May/2025 02:15:54] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2025-05-07 02:16:01,889:INFO:5(module)s:127.0.0.1 - - [07/May/2025 02:16:01] "GET / HTTP/1.1" 200 -]
+[2025-05-07 02:16:12,747:ERROR:5(module)s:Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\MONISH\anaconda3\envs\myenv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MONISH\anaconda3\envs\myenv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MONISH\anaconda3\envs\myenv\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MONISH\anaconda3\envs\myenv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MONISH\anaconda3\envs\myenv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MONISH\anaconda3\envs\myenv\Lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MONISH\OneDrive\Documents\Data_science 2024\CNN_classifier\CNN_Classifier\app.py", line 40, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\monish\onedrive\documents\data_science 2024\cnn_classifier\cnn_classifier\src\cnnClassifier\pipeline\predict.py", line 15, in predict
+    test_image = image.load_image(imagename,target_size = (224,224))
+                 ^^^^^^^^^^^^^^^^
+AttributeError: module 'keras._tf_keras.keras.preprocessing.image' has no attribute 'load_image'. Did you mean: 'load_img'?
+[2025-05-07 02:16:12,749:INFO:5(module)s:127.0.0.1 - - [07/May/2025 02:16:12] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2025-05-07 02:18:48,772:INFO:5(module)s:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.1.7:80]
+[2025-05-07 02:18:48,773:INFO:5(module)s:[33mPress CTRL+C to quit[0m]
+[2025-05-07 02:18:52,937:INFO:5(module)s:127.0.0.1 - - [07/May/2025 02:18:52] "GET / HTTP/1.1" 200 -]
+[2025-05-07 02:18:58,591:ERROR:5(module)s:Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\MONISH\anaconda3\envs\myenv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MONISH\anaconda3\envs\myenv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MONISH\anaconda3\envs\myenv\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MONISH\anaconda3\envs\myenv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MONISH\anaconda3\envs\myenv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MONISH\anaconda3\envs\myenv\Lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MONISH\OneDrive\Documents\Data_science 2024\CNN_classifier\CNN_Classifier\app.py", line 40, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\monish\onedrive\documents\data_science 2024\cnn_classifier\cnn_classifier\src\cnnClassifier\pipeline\predict.py", line 16, in predict
+    model = load_model(os.path.join("artifacts","training", "model.h5"))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MONISH\anaconda3\envs\myenv\Lib\site-packages\keras\src\saving\saving_api.py", line 196, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MONISH\anaconda3\envs\myenv\Lib\site-packages\keras\src\legacy\saving\legacy_h5_format.py", line 116, in load_model_from_hdf5
+    f = h5py.File(filepath, mode="r")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MONISH\anaconda3\envs\myenv\Lib\site-packages\h5py\_hl\files.py", line 561, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MONISH\anaconda3\envs\myenv\Lib\site-packages\h5py\_hl\files.py", line 235, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "h5py\\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py\\h5f.pyx", line 102, in h5py.h5f.open
+FileNotFoundError: [Errno 2] Unable to synchronously open file (unable to open file: name = 'artifacts\training\model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2025-05-07 02:18:58,603:INFO:5(module)s:127.0.0.1 - - [07/May/2025 02:18:58] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2025-05-07 02:20:47,109:INFO:5(module)s:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.1.7:80]
+[2025-05-07 02:20:47,109:INFO:5(module)s:[33mPress CTRL+C to quit[0m]
+[2025-05-07 02:20:47,204:INFO:5(module)s:127.0.0.1 - - [07/May/2025 02:20:47] "GET / HTTP/1.1" 200 -]
+[2025-05-07 02:20:57,543:INFO:5(module)s:127.0.0.1 - - [07/May/2025 02:20:57] "POST /predict HTTP/1.1" 200 -]
+[2025-05-07 02:21:01,178:INFO:5(module)s:127.0.0.1 - - [07/May/2025 02:21:01] "POST /predict HTTP/1.1" 200 -]
+[2025-05-07 02:21:14,684:INFO:5(module)s:127.0.0.1 - - [07/May/2025 02:21:14] "POST /predict HTTP/1.1" 200 -]
+[2025-05-07 02:21:16,531:INFO:5(module)s:127.0.0.1 - - [07/May/2025 02:21:16] "POST /predict HTTP/1.1" 200 -]
