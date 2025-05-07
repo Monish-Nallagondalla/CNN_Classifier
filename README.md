@@ -34,8 +34,8 @@ Chicken diseases, especially *Coccidiosis*, are a significant challenge in poult
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/entbappy/Chicken-Disease-Classification--Project
-cd Chicken-Disease-Classification--Project
+git clone https://github.com/Monish-Nallagondalla/CNN_Classifier.git
+cd CNN_Classifier
 ````
 
 ### STEP 01: Set Up the Environment
@@ -43,7 +43,7 @@ cd Chicken-Disease-Classification--Project
 Create and activate a Conda environment:
 
 ```bash
-conda create -n cnncls python=3.8 -y
+conda create -n cnncls python=3.12 -y
 conda activate cnncls
 ```
 
@@ -156,5 +156,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 Happy Coding! 🐔
-
-```
